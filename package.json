@@ -1,0 +1,19 @@
+{
+  "name": "mongowork",
+  "version": "1.0.0",
+  "description": "aplicacion de comida con mongo",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Richard Pizaña",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
